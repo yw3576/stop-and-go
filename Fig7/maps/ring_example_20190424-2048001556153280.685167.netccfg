@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+  <input>
+    <node-files value="ring_example_20190424-2048001556153280.685167.nod.xml"/>
+    <edge-files value="ring_example_20190424-2048001556153280.685167.edg.xml"/>
+    <type-files value="ring_example_20190424-2048001556153280.685167.typ.xml"/>
+  </input>
+  <output>
+    <output-file value="ring_example_20190424-2048001556153280.685167.net.xml"/>
+  </output>
+  <processing>
+    <no-internal-links value="true"/>
+    <no-turnarounds value="true"/>
+    <collision.action value="remove"/>
+    <collision.stoptime value="100"/>
+  </processing>
+</configuration>
