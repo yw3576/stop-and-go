@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes>
+  <vType accel="1" carFollowModel="IDM" decel="1.5" id="human" impatience="0.5" laneChangeModel="LC2013" maxSpeed="15" minGap="2.0" sigma="0.5" speedDev="0.2" speedFactor="1.0" tau="1.0"/>
+  <vType accel="1" carFollowModel="IDM" decel="1.5" id="rl" impatience="0.5" laneChangeModel="LC2013" maxSpeed="15" minGap="2.0" sigma="0.5" speedDev="0.2" speedFactor="1.0" tau="1.0"/>
+  <vType accel="1" carFollowModel="IDM" decel="1.5" id="header" impatience="0.5" laneChangeModel="LC2013" maxSpeed="15" minGap="2.0" sigma="0.5" speedDev="0.2" speedFactor="1.0" tau="1.0"/>
+  <vType accel="1.0" carFollowModel="IDM" decel="1.5" id="mal" impatience="0.5" laneChangeModel="LC2013" maxSpeed="15" minGap="2.0" sigma="0.5" speedDev="0.2" speedFactor="1.0" tau="1.0" color="255,255,0" />
+
+
+  <route edges="top left bottom right" id="routetop"/>
+  <route edges="left bottom right top" id="routeleft"/>
+  <route edges="bottom right top left" id="routebottom"/>
+  <route edges="right top left bottom" id="routeright"/>
+
+
+  <vehicle id="v2" type="human" route="routebottom" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v3" type="human" route="routebottom" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v4" type="human" route="routebottom" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v5" type="human" route="routebottom" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v6" type="header" route="routebottom" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v7" type="human" route="routeleft" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v8" type="human" route="routeleft" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v9" type="human" route="routeleft" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v10" type="human" route="routeleft" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v11" type="human" route="routeleft" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v12" type="human" route="routetop" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v13" type="human" route="routetop" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v14" type="human" route="routetop" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v15" type="human" route="routetop" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v16" type="human" route="routetop" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v17" type="human" route="routetop" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v18" type="human" route="routeright" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v19" type="human" route="routeright" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v20" type="human" route="routeright" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="v21" type="human" route="routeright" depart="0" departPos="random_free" color="0,255,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+  <vehicle id="autonomous_vehicle" type="rl" route="routeright" depart="0" departPos="random_free" color="255,0,0" departLane="0" reroute="true"> 
+
+  </vehicle>
+
+
+</routes>
