@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+	<vType accel="1.0" carFollowModel="IDM" decel="1.5" id="human" impatience="0.5" laneChangeModel="LC2013" maxSpeed="15" minGap="2.0" sigma="0.5" speedDev="0.3" speedFactor="1.0" tau="1.0" color="0,255,0" />	
+	<vType accel="1.0" carFollowModel="IDM" decel="1.5" id="rl1" impatience="0.5" laneChangeModel="LC2013" maxSpeed="15" minGap="2.0" sigma="0.5" speedDev="0.3" speedFactor="1.0" tau="1.0" color="255,0,0" />	
+	<vType accel="1.0" carFollowModel="IDM" decel="1.5" id="mal" impatience="0.5" laneChangeModel="LC2013" maxSpeed="15" minGap="2.0" sigma="0.5" speedDev="0.3" speedFactor="1.0" tau="1.0" color="255,255,0" />
+
+	<vType accel="1.0" carFollowModel="IDM" decel="1.0" id="rl2" impatience="0.5" laneChangeModel="LC2013" maxSpeed="45" minGap="1.5" sigma="0.5" speedDev="0.2" speedFactor="1.0" tau="1" color="255,0,0" />
+
+
+	<vType accel="1.5" carFollowModel="IDM" decel="3.0" id="human3" impatience="0.5" laneChangeModel="LC2013" maxSpeed="45" minGap="2.3" sigma="0.5" speedDev="0.3" speedFactor="1.0" tau="1.0" color="0,255,0" />	
+	<vType accel="1.0" carFollowModel="IDM" decel="3.0" id="human4" impatience="0.5" laneChangeModel="LC2013" maxSpeed="45" minGap="2.3" sigma="0.5" speedDev="0.3" speedFactor="1.0" tau="1.0" color="255,0,0" />	
+
+</routes>
